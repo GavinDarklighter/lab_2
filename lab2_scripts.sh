@@ -27,6 +27,7 @@ grep -E ^303- "regex_practice.txt"
 
 #Problem 3.4 Code:
 grep -E .@geocities.com "regex_practice.txt" > "email_results.txt"
+grep -E .@goecities.com "regex_practice.txt"
 
 #Problem 3.5 Code:
 echo "Command line argument: "
