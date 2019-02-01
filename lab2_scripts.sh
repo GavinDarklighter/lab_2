@@ -23,7 +23,7 @@ grep -E -c [@] "regex_practice.txt"
 
 #Problem 3.3 Code:
 grep -E ^303- "regex_practice.txt" > "phone_results.txt"
-#grep -E ^303- "regex_practice.txt"
+grep -E ^303- "regex_practice.txt"
 
 #Problem 3.4 Code:
 grep -E .@geocities.com "regex_practice.txt" > "email_results.txt"
